@@ -4,6 +4,7 @@
     margin: 1rem;
 }
 body{
+    margin: 0;
     overflow-x: hidden;
     font-family: 'Passion One', cursive;
 }

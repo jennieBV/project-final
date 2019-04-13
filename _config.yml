@@ -5,7 +5,7 @@ title: Tova e zaglavie
 email: tova e poshta
 description: >- # this means to ignore newlines until "baseurl:"
   tova e opisanie
-baseurl: "R-M" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 destination: docs
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Jenkye wast
