@@ -1,3 +1,8 @@
+body{
+  margin: 0;
+  font-family: 'Passion One', cursive;
+  
+}
 #menu-toggle {
     display: none;
   }
@@ -23,9 +28,9 @@
   text-transform: uppercase;
 }
 
-#menu-label:hover, #collapse-menu > li:hover{
+#menu-label1:hover, #collapse-menu > li:hover{
   cursor: pointer;
-  color: lightskyblue;
+  opacity: 1;
 }
 header{
   background: black;
@@ -39,32 +44,44 @@ body > header > img{
     width: 13rem;
     filter:contrast(200%) brightness(150%);
 }
-#menu-label{
+#menu-label1{
     display: inline-flex;
     align-items: center;
+    color:white;
+    opacity: 0.9;
     
 }
-#menu-label > i{
+#menu-label1 > i{
     margin: 1rem;
     
 }
-#menu-label > i > p{
+#menu-label1 > i > p{
     font-family: 'Passion One', cursive;
    
 }
-#menu-label > p{
+#menu-label1 > p{
   margin: 1rem 0;
 }
 #collapse-menu > li > a{
   text-decoration: none;
-  color:white
+  color:white;
+  opacity: 0.9;
 }
 #collapse-menu > li > a:hover{
-  color:rgb(152, 209, 255);
+  opacity: 1;
 }
 /* +++++++++++++++++++++++++++++++++++++ Follow us +++++++++++++++++++++++++++++++++++++ */
+.follow-us{
+  height: 6rem;
+  /* background:  url(/img-home/1.jpg); */
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .ft{
   margin: 0;
+  background: #eae9e8;
 }
 footer> a{ 
   padding: 20px;
@@ -81,7 +98,7 @@ footer> div.follow-us-wrap{
   text-align: center;
 }
 .icon{
-  border-radius: 15%;
+  border-radius: 50%;
   filter: grayscale(50%);
   width: 60px;
   height: 60px;
@@ -90,28 +107,24 @@ footer> div.follow-us-wrap{
   color: white;
   align-items: center;
   justify-content: center;
-}
-footer > div > div > i{ 
   font-size: 2rem;
-
 }
-footer > div > div:nth-child(1){
+.icon:nth-child(1){
   background: blue;
 }
-footer > div > div:nth-child(2){
+.icon:nth-child(2){
   background: lightskyblue;
 }
-footer > div > div:nth-child(3){
+.icon:nth-child(3){
   background: red;
 }
-footer > div > div:nth-child(4){
+.icon:nth-child(4){
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 /* +++++++++++++++++++++++++++++++++++++ FOOTER +++++++++++++++++++++++++++++++++++++*/
 footer{
   text-align: center;
-  background: whitesmoke;
-  color:black;
+  color:rgb(27, 27, 27);
   height: 20rem;
   font-size: 1.1rem;
 }
