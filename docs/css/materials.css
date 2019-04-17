@@ -59,12 +59,14 @@ h3{
     }
 #second {
     grid-column: 7 / span 3;
-    background: white;
+    background: black;
+    color:white;
     text-align: end;
     }
 #third {
     grid-column: 1 / span 2;
-    background: white;
+    background: black;
+    color:white;
     }
 #forth {
     grid-column: 3 / span 3;

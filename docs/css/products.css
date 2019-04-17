@@ -1,17 +1,18 @@
 .wrapper > img {
     width: 100%;
     height: auto;
-    margin: 1rem;
+    margin: 0;
 }
 body{
     margin: 0;
     overflow-x: hidden;
     font-family: 'Passion One', cursive;
+    background: black;
 }
 #rick, #morty, #banana, #mr, #bird, #dog {
     margin-left: 2rem;
     width: 11.5rem;
-    height: 462px;
+    height: 39rem;
     /* background: rgba(68, 0, 255, 0.301);  */
     position: absolute;
     top: 5.5rem;
@@ -19,15 +20,15 @@ body{
     
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+        align-items: center;
     font-size: 2rem;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: -2px -1px black, 1px 2px black, 3px 2px black, 0 -1px black;
 
 }
 #rick:hover, #morty:hover, #banana:hover, #mr:hover, #bird:hover, #dog:hover{
     opacity: 1; 
     cursor: pointer;
-    color:rgb(255, 255, 255);
+    color: rgb(254, 152, 81);
 }
 #morty { right: 60rem; }
 
@@ -39,11 +40,11 @@ body{
 #mr { right: 39rem; }
 
 #bird {    
-    right: 19rem;
+    right: 22rem;
     width: 19rem;
 }
 
 #dog {
-    right: 1rem;
+    right: 4rem;
     width: 17rem;
 }

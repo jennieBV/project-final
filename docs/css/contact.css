@@ -50,3 +50,10 @@ input{
 textarea{
   font-family: 'Passion one';
 }
+.wrap{display:flex;}
+.wrap>p{
+      font-size: 3rem;
+    width: 27rem;
+    margin: auto 1rem;
+    background: black;
+}

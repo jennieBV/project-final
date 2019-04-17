@@ -7,7 +7,7 @@ body{
 }
 .rate {
     background: whitesmoke;
-    float: left;
+    /* float: left; */
     height: 46px;
     padding: 0 10px;
     border-radius: 19px;

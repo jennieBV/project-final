@@ -113,7 +113,9 @@ body{
 /*+++++++++++++++++++++++++++++++++++++ ACTION FIGURES WALLPAPEr */
 .afw {
     display: flex;
-    background: black;
+    /* background: black; */
+     /* background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 66%, rgba(240,240,240,1) 100%);  */
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 74%, rgba(0,0,0,1) 78%, rgba(255,255,255,1) 100%);
     align-items: flex-end;
 }
 .afw > p{
@@ -125,3 +127,7 @@ body{
 
 /* ++++++++++++++++++++++++++++++++++ MENU BUTTON +++++++++++++++++++++++++++++++++ */
 /* video */
+#myVideo{
+    width: 100%;
+    height: auto;
+}
