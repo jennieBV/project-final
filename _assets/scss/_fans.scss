@@ -1,0 +1,38 @@
+// $color_white: white;
+
+body {
+	background-image: url(/img-home/1.jpg);
+	color: $color_white;
+	margin: 0;
+	padding: 0;
+}
+.album {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	>li {
+		display: flex;
+		flex-direction: column;
+		flex: 0 0 22%;
+		align-items: center;
+		margin: 1rem;
+		background: $background_color_fblack;
+		box-shadow: 2px 2px 8px $color_lgrey;
+		>img {
+			width: auto;
+			height: 21rem;
+		}
+		>p {
+			margin: 0.2rem;
+			font-size: 1.4rem;
+		}
+	}
+}
+div.text {
+	>p {
+		font-size: 2.5rem;
+		margin: 0.7rem;
+		text-align: center;
+	}
+}

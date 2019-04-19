@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/menu.css">
+    <link rel="stylesheet" href="/assets/scss/_menu.scss"> 
     <title></title>
-
+    <base href="/"> 
 </head>
 <body>
         <header>
           <div class="click">
             <input id="menu-toggle" type="checkbox">
             <label id="menu-label1" for="menu-toggle">
-                <i class="fas fa-bars"></i><p>MENU</p>
+                <i class="fas fa-bars"></i>
+                MENU
             </label>
             <ul id="collapse-menu">
               <li><a href="/index">home</a></li>
               <li><a href="/products">products</a></li>
-              <li><a href="/materials">materials & safety</a></li>
-              <li><a href="/fans">fans</a></li>
+              <li><a href="/materials">materials</a></li>
+              <li><a href="/fans/">fans</a></li>
               <li><a href="/contact">contact us</a></li>
               <!-- <li><a href="">see what's coming...</a></li> -->
             </ul>
           </div>
             
-          <img src="/img-home/58f37720a4fa116215a9240f.png" alt=""> 
+          <img src="/img-home/58f37720a4fa116215a9240f.png" alt="">
             
         </header>
 
@@ -55,27 +58,27 @@
 
      <footer>
         <ul class="ft">
-            <li><h4>Working hours</h4>
+            <li tabindex="0"><h4>Working hours</h4>
             <p>Monday - Friday: 8:00 - 20:00</p>
             <p>Saturday: 9:00 - 17:00</p>
             <p>Sunday: non-working</p>
             </li>
-            <li><h4>Delivery and reclamation</h4>
+            <li tabindex="0"><h4>Delivery and reclamation</h4>
                 <p>We use <span>Econt</span> to send your orders.</p>
                 <p><span>Tracking number</span> will be available in 2 days <br> after the placement of your order.</p>
                 <p>If are not satisfied, please check out our <span>return policy</span>.</p>
             </li>
-            <li><h4>Contact details</h4>
+            <li tabindex="0"><h4>Contact details</h4>
                 <p>0800 921 556</p>
                 <p>customer.service@rm.com</p>
             </li>
         </ul>
          <section class="follow-us"> 
             <div class="follow-us-wrap">
-                   <div href="#" class="icon"><i class="fab fa-facebook-f"></i></div>
-                   <div href="#" class="icon"><i class="fab fa-twitter"></i></div>
-                   <div href="#" class="icon"><i class="fab fa-youtube"></i></div>
-                   <div href="#" class="icon"><i class="fab fa-instagram"></i></div>
+                   <div class="icon"><i class="fab fa-facebook-f"></i></div>
+                   <div class="icon"><i class="fab fa-twitter"></i></div>
+                   <div class="icon"><i class="fab fa-youtube"></i></div>
+                   <div class="icon"><i class="fab fa-instagram"></i></div>
                </div>   
            </section>
     </footer>

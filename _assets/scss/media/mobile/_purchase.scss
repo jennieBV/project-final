@@ -1,0 +1,90 @@
+body{
+  font-family: 'Passion one' ;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: lightskyblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: lightskyblue;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 3rem ; 
+width:45rem;
+color:black;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  padding: 10px;
+  margin: 20px 0;
+  font-family: 'Passion one';
+}
+textarea{
+  font-family: 'Passion one';
+}
+.wrap{display:flex;}
+.wrap>p{
+      font-size: 3rem;
+    width: 27rem;
+    margin: auto 1rem;
+    background: black;
+}
+.fig{
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+.fig >img{
+    width: 33%;
+    margin: 1rem;
+}
+.fig >p{
+    font-size: 3rem;
+    color: orange;
+}
+.fig >p >span{
+    color: black;
+}
+
+.item{
+  font-size: 2rem;
+  text-align: center;
+}
+.title{
+  color: orange;
+  font-size: 2rem;
+}
+.price{
+  font-size: 1.4rem;
+}
+.price> span{
+  color: orange;
+  font-weight: bold;
+  font-style: italic;
+}

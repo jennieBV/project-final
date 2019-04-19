@@ -1,0 +1,169 @@
+// $color_yellow: rgb(255, 255, 106);
+// $color_lblue: rgb(149, 222, 255);
+// $color_$color_white: $color_white;
+// $color_lgrey: #eae9e8;
+// $font_family_1: 'Passion One', cursive;
+// $background_color_f$color_black: rgba(0, 0, 0, 0.8);
+
+
+/* +++++++++++++++++++++++++++++++++++++ Main / slider +++++++++++++++++++++++++++++++++++++ */
+// @keyframes "slide" {
+// /* 20% {margin-left: 0px;}
+//     60% {margin-left: -70rem;}
+//     80% {margin-left: -140rem;} */
+// 	20% {
+// 		margin-left: 0px;
+// 	}
+// 	30% {
+// 		margin-left: -1350px;
+// 	}
+// 	50% {
+// 		margin-left: -1350px;
+// 	}
+// 	60% {
+// 		margin-left: -2700px;
+// 	}
+// 	70% {
+// 		margin-left: -2700px;
+// 	}
+// 	80% {
+// 		margin-left: -4050px;
+// 	}
+// 	90% {
+// 		margin-left: -4050px;
+// 	}
+// }
+/* +++++++++++++++++++++++++++++++++++++ PRODUCTS +++++++++++++++++++++++++++++++++++++ */
+/*+++++++++++++++++++++++++++++++++++++ ACTION FIGURES WALLPAPEr */
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	font-family: $font_family_1;
+	background: $color_white;
+}
+#slideshow {
+	display: inline-block;
+	background: $color_black;
+	width: 100%;
+	>img {
+		width: 100%;
+		height: auto;
+	}
+}
+.titles {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	>div {
+		>h3 {
+			font-size: 4rem;
+			margin: 0;
+		}
+	}
+	>.title1 {
+		>h3 {
+			color: $color_yellow;
+		}
+		width: 590px;
+		top: 398px;
+	}
+	>.title2 {
+		>h3 {
+			color: $color_lblue;
+		}
+		top: 150px;
+		margin-left: 50rem;
+	}
+}
+.title1 {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+	font-size: 60px;
+	height: 200px;
+	color: $color_white;
+	background-color: $background_color_black;
+	position: absolute;
+	opacity: 0.7;
+	text-align: center;
+	transition: opacity 0.5s;
+	width: 500px;
+	&:hover {
+		cursor: pointer;
+		background-color: $background_color_fblack;
+		opacity: 1;
+	}
+}
+.title2 {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+	font-size: 60px;
+	height: 200px;
+	color: $color_white;
+	background-color: $background_color_fblack;
+	position: absolute;
+	opacity: 0.7;
+	text-align: center;
+	transition: opacity 0.5s;
+	width: 500px;
+	&:hover {
+		cursor: pointer;
+		background-color: $background_color_fblack;
+		opacity: 1;
+	}
+}
+.pictures {
+	display: inline-flex;
+	list-style: none;
+	padding: 0;
+	background: $color_white;
+	padding-top: 1rem;
+	>li {
+		display: inline-block;
+		margin: 1px 5px 1px 1px;
+		height: 294px;
+		border-right: 4px solid transparent;
+		>img {
+			height: 18rem;
+			width: 20rem;
+			margin-left: 2px;
+			opacity: 0.9;
+			transition: transform .2s ease-in-out;
+		}
+		&:hover {
+			>img {
+				transform: scale(1.09);
+				opacity: 1;
+			}
+			cursor: pointer;
+			>.down {
+				cursor: pointer;
+				visibility: visible;
+			}
+		}
+	}
+}
+.down {
+	background-color: $color_lgrey;
+	font-size: 1.5rem;
+	color: $color_white;
+	text-align: center;
+	height: 3rem;
+	position: relative;
+	bottom: 35px;
+	visibility: hidden;
+}
+.afw {
+	display: flex;
+	background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 74%, rgba(0,0,0,1) 78%, rgba(255,255,255,1) 100%);
+	align-items: flex-end;
+	>p {
+		width: 29%;
+		font-size: 3.5rem;
+		margin: 0;
+		color: $color_lgrey;
+	}
+}

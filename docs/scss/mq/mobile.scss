@@ -1,0 +1,147 @@
+/* @media only screen and (max-width: 768px){ */
+    body{
+        height: 722px;
+    }
+    .click{
+        position: sticky;
+        font-size: 3.3rem;
+        height: 3rem;
+    }
+    body > header > img, #menu-toggle, .titles, #menu-label1 > p, .afw > p, .afw > img {
+        display: none !important;
+    }
+    header{
+        height: 0;
+    }
+    #menu-label1{
+        opacity: 1;
+    }
+    /* #collapse-menu{
+        width: 12rem;
+        font-size: 2.5rem;
+    } */
+    body > main{
+        height: 16rem;
+    }
+    #slideshow{ 
+    /* overflow: hidden; */
+    position: relative;
+    bottom: 6rem;
+    width: 200% !important;
+    height: 100% !important;
+    }
+    #slideshow > img{
+        margin: -7px -60% !important;
+    width: 168.777% !important;
+    display: block;
+    height: auto;
+    }
+    header {
+        width: 100%;
+    }
+    .afw{
+        height: 27rem;
+        background-image: url(/img-home/review_funkorm_large.jpg) !important;
+        background-size: cover !important;
+    }
+    /* .afw > p{
+             position: absolute;
+    width: 100% !important;
+    font-size: 2rem !important;
+    top: 47rem; 
+    } */
+    .pictures > li > img{
+        height: auto !important;
+    width: 100% !important;
+    }
+    .pictures > li {
+        height: 8rem !important;
+        width: 79%;
+    }
+    .pictures > li > .down {
+        visibility: visible;
+        width: initial;
+        margin: 0 auto;
+    }
+    .pictures{
+        display: inline-block !important;
+    position: relative;
+    bottom: 7rem;
+    text-align: center;
+    }
+    .ft {
+    padding: 0;
+    font-size: 12px;
+    }
+    .ft > li{
+        margin: 0 !important;
+        width: 100%;
+        height: auto !important;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1.2px #a7a7a7 solid;
+            
+    }
+    .ft > li > h4{
+        margin: 0;
+        font-size: 1rem;
+    }
+/* } */
+/* MATERIALS  */
+.grid-materials{
+    grid-template-columns: repeat(1, 1fr) !important;
+
+}
+#second, #third, #fifth, #sixth{
+    display:none;
+}
+#first, #forth, #seventh{
+    grid-column: 1 / 1 !important;
+}
+.pic:before {
+    transform: scaleX(1) !important;
+}
+
+/* FANS  */
+
+.album{
+    text-align: center;
+}
+.album > p{
+    font-size: 1.5rem !important;
+}
+/* CONTACT US  */
+.wrap > p{
+    font-size: 1.5rem !important;
+    width: 88% !important;
+}
+.wrap{
+    text-align: center;
+    flex-direction: column;
+}
+.container{
+    width: 84% !important;
+}
+/* page html */
+.ft > li > p{
+    display: none;
+}
+.ft > li:focus > p{
+    display: block;
+    font-size: 1.3rem;
+    margin: 0.5rem;
+} 
+.ft > li > h4{
+    margin-bottom: 1rem;
+    font-size: 2rem !important;
+}
+.ft > li > h4::after{
+    content: '      \25be';
+    color: rgb(105, 105, 105);
+}
+/* products */
+.wrapper>div{
+    display: none !important;
+
+}

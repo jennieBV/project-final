@@ -1,0 +1,102 @@
+// $color_lblack: rgb(26, 26, 26);
+// $color_white: white;
+
+.grid-materials {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-gap: 1rem;
+	background: url(/img-home/1.jpg);
+	padding: 1rem;
+	min-height: 0;
+	>div {
+		border: 2px solid $color_lgrey;
+		color: $color_lblack;
+		background-size: cover;
+		font-size: 1.5rem;
+		height: 13rem;
+		padding: 1rem;
+		transition: opacity .2s ease-in-out;
+		opacity: 0.9;
+		position: relative;
+		z-index: 0;
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+.pic {
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: $color_lgrey;
+		transform: scaleX(0);
+		transform-origin: 0 50%;
+		transition: transform .3s ease-out;
+		font-size: 6rem;
+		color: $color_white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&:hover {
+		&:before {
+			transform: scaleX(1);
+		}
+	}
+}
+#first {
+	&:before {
+		content: "Wood";
+	}
+	grid-column: 1 / span 6;
+	background-image: url(/img-home/background-brown-circle-cut-40973.jpeg);
+	background-position: bottom;
+}
+#forth {
+	&:before {
+		content: "Clay";
+	}
+	grid-column: 3 / span 3;
+	background-image: url(/img-home/clay-sculpting.jpg);
+}
+#fifth {
+	&:before {
+		content: "Clay ground";
+	}
+	grid-column: 6 / span 4;
+	background-image: url(/img-home/clay-1333694-710x395.jpg);
+}
+#sixth {
+	&:before {
+		content: "Shaping";
+	}
+	grid-column: 1 / span 4;
+	background-image: url(/img-home/maxresdefault.jpg);
+}
+#seventh {
+	&:before {
+		content: "Paints";
+	}
+	grid-column: 5 / span 5;
+	background-image: url(/img-home/maxresdefault\ \(1\).jpg);
+	background-position: center;
+}
+h3 {
+	margin: 0;
+}
+#second {
+	grid-column: 7 / span 3;
+	background: $background_color_fblack;
+	color: $color_white;
+	text-align: end;
+}
+#third {
+	grid-column: 1 / span 2;
+	background: $background_color_fblack;
+	color: $color_white;
+}
