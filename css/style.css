@@ -144,22 +144,19 @@ body{
   height: 100% !important;
   }
   #slideshow > img{
-      margin: -7px -60% !important;
+      margin: 0 -60% !important;
   width: 168.777% !important;
-  display: block;
-  height: auto;
   }
   header {
       width: 100%;
   }
   .afw{
       height: 27rem;
-      background-image: url(/img-home/review_funkorm_large.jpg) !important;
+      background-image: url(https://jenniebv.github.io/project-final/img-home/review_funkorm_large.jpg) !important;
       background-size: cover !important;
   }
   .pictures > li > img{
       height: auto !important;
-  width: 100% !important;
   }
   .pictures > li {
       height: 8rem !important;
