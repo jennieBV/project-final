@@ -186,10 +186,9 @@ footer{
   .ft > li:focus > p{
     display: block;
   }
-  .ft > li > h4{
-      margin: 0;
-      font-size: 1rem;
-  }
+  .ft > li > h4 {
+    margin-bottom: 1rem;
+    font-size: 2rem !important; }
   .ft> li > p {
     display:none;
   }
