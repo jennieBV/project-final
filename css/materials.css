@@ -54,7 +54,7 @@ h3{
 
 #first {
   grid-column: 1 / span 6;
-  background-image: url(/img-home/background-brown-circle-cut-40973.jpeg);
+  background-image: url(https://jenniebv.github.io/project-final/img-home/background-brown-circle-cut-40973.jpeg);
   background-position: bottom;
   }
 #second {
@@ -70,19 +70,19 @@ h3{
   }
 #forth {
   grid-column: 3 / span 3;
-  background-image: url(/img-home/clay-sculpting.jpg);
+  background-image: url(https://jenniebv.github.io/project-final/img-home/clay-sculpting.jpg);
   }
 #fifth {
   grid-column: 6 / span 4;
-  background-image: url(/img-home/clay-1333694-710x395.jpg);
+  background-image: url(https://jenniebv.github.io/project-final/img-home/clay-1333694-710x395.jpg);
   }
 #sixth {
   grid-column: 1 / span 4;
-  background-image: url(/img-home/maxresdefault.jpg);
+  background-image: url(https://jenniebv.github.io/project-final/img-home/maxresdefault.jpg);
   }
 #seventh{
 grid-column: 5 / span 5;
-background-image: url(/img-home/maxresdefault2.jpg);
+background-image: url(https://jenniebv.github.io/project-final/img-home/maxresdefault2.jpg);
 background-position: center;
 }
 
