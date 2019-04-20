@@ -1,0 +1,6 @@
+/* FANS  */
+@media only screen and (max-width: 768px) {
+  .album {
+    text-align: center; }
+    .album > p {
+      font-size: 1.5rem !important; } }
