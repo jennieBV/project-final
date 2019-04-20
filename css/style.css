@@ -21,16 +21,26 @@ body{
 90% {margin-left: -4050px;}
 }
 #slideshow{
-    /* animation: slide 18s ease infinite;  */
     display: inline-block;
     background: black;
-     width:100%;
+    width:100%; 
    
 }
+ /* For animation: (1)uncomment the below #slideshow; (2) comment #slideshow > img; (3)uncomment the images in index.html; */
+
+/* #slideshow{
+  width: 7680px;
+  animation: slide 18s ease infinite;
+} */
+
+/* Comment this one: (step 2) */
 #slideshow > img{
-    width:100%;
-    height:auto;
+     width:100%;
+    height:auto; 
 }
+/* End */
+
+
 .titles {
   width: 100%;
   display: flex;

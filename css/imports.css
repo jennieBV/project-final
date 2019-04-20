@@ -1,3 +1,15 @@
+@import "reset.css";
+@import "typography.css";
+@import "variables.css";
+
 @import "contact.css";
 @import "/css/contact.css";
 @import "project-final/css/contact.css";
+@import "fans.css";
+@import "materials.css";
+@import "menu.css";
+@import "products.css";
+@import "purchase.css";
+@import "stars.css";
+@import "style.css";
+@import "typography.css";

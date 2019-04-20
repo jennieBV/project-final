@@ -1,10 +1,4 @@
-/* *{
-    margin: 0;
-    padding: 0;
-} */
-body{
-    /* text-align: center; */
-}
+
 .rate {
     background: whitesmoke;
     float: left;
@@ -46,9 +40,3 @@ body{
 .rate > label:hover ~ input:checked ~ label {
     color: #ffc700;
 }
-/* 
-div.wrapper > div.rate:nth-child(31){ margin-left: 6rem; }
-div.wrapper > div.rate:nth-child(15){ margin: 1rem 0; }
-div.wrapper > div:nth-child(19){ margin-left: 0.5rem; }
-div.wrapper > div:nth-child(23){ margin-left: 0rem; }
-div.wrapper > div:nth-child(27){ margin-left: 3.8rem; } */
