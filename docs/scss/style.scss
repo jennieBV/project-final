@@ -1,5 +1,3 @@
-@import url(/css/mq/mobile.css) only screen and (max-width: 768px);
-@import url(/css/mq/tablet.css) only screen and (min-width: 768px) and (max-width: 1024px);
 
 body{
     margin: 0;
@@ -13,9 +11,6 @@ body{
 /* +++++++++++++++++++++++++++++++++++++ Main / slider +++++++++++++++++++++++++++++++++++++ */
 
   @keyframes slide {
-    /* 20% {margin-left: 0px;}
-    60% {margin-left: -70rem;}
-    80% {margin-left: -140rem;} */
   20% {margin-left: 0px;}
   30% {margin-left: -1350px;}
   50% {margin-left: -1350px;}
@@ -27,7 +22,6 @@ body{
   #slideshow{
       /* animation: slide 18s ease infinite;  */
       display: inline-block;
-      /* width: 7680px;  */
       background: black;
        width:100%;
      
@@ -126,8 +120,6 @@ body{
 /*+++++++++++++++++++++++++++++++++++++ ACTION FIGURES WALLPAPEr */
 .afw {
     display: flex;
-    /* background: black; */
-     /* background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 66%, rgba(240,240,240,1) 100%);  */
     background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 74%, rgba(0,0,0,1) 78%, rgba(255,255,255,1) 100%);
     align-items: flex-end;
 }

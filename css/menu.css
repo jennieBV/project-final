@@ -165,9 +165,6 @@ footer{
   body > header > img, #menu-toggle, .titles, #menu-label1 > p, .afw > p, .afw > img {
       display: none !important;
   }
-  header{
-      height: 0;
-  }
   #menu-label1{
       opacity: 1;
   }
@@ -186,10 +183,20 @@ footer{
       border-bottom: 1.2px #a7a7a7 solid;
           
   }
+  .ft > li:focus > p{
+    display: block;
+  }
   .ft > li > h4{
       margin: 0;
       font-size: 1rem;
   }
+  .ft> li > p {
+    display:none;
+  }
+  .ft > li > h4::after {
+    content: '      \25be';
+    color: dimgray; }
+  
 }
 
 /* tablet menu */
@@ -216,4 +223,5 @@ footer{
       .ft > li > p{
           font-size: 1rem;
       } 
+      .afw>img{width: 100%;}
     }

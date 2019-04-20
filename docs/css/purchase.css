@@ -65,10 +65,24 @@ textarea{
     width: 33%;
     margin: 1rem;
 }
-.fig >p{
+.fig >.item>.title{
     font-size: 3rem;
     color: orange;
 }
-.fig >p >span{
-    color: black;
+.fig >div>p >span {
+    color: orange;
+}
+.fig >.item>.price{
+  font-size: 3rem;
+}
+/* mobile purchase */
+@media only screen and (max-width: 768px){
+  .fig{
+    flex-direction: column;
+    text-align: center;
+  }
+  .item p{
+    margin: 0;
+    font-size:1rem;
+  }
 }

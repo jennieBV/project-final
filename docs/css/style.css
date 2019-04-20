@@ -31,49 +31,57 @@ body{
     width:100%;
     height:auto;
 }
-.titles{
-        width: 100%;
+.titles {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-}
-.titles > div > h3 {
-  font-size: 4rem;
-  margin: 0;
-}
-.titles > .title1 > h3{
-  color:rgb(255, 255, 106);
-}
-.titles > .title2 > h3{
-  color:rgb(149, 222, 255);
-} 
-.titles > .title1{
-  width: 590px; 
-  top: 398px;
-  
-}
-.titles > .title2{
-  top: 150px;
-  margin-left: 50rem;
-}
-.title1, .title2{
+  justify-content: space-between; }
+  .titles > div > h3 {
+    font-size: 4rem;
+    margin: 0; }
+  .titles > .title1 {
+    width: 32rem;
+    top: 23rem; }
+    .titles > .title1 > h3 {
+      color: #ffff6a; }
+  .titles > .title2 {
+    top: 150px;
+    margin-left: 56%; }
+    .titles > .title2 > h3 {
+      color: #95deff; }
+
+.title1 {
   display: flex;
   align-items: center;
   margin-left: 1rem;
   font-size: 60px;
   height: 200px;
-  color:white;
-  background-color: rgba(0, 0, 0, 0.8); 
+  color: white;
+  background-color: black;
   position: absolute;
   opacity: 0.7;
-  text-align: center; 
-  transition: opacity 0.5s;
-  width: 500px; 
-}
-.title1:hover, .title2:hover {
-  cursor: pointer;
+  text-align: center;
+  transition: opacity 0.5s; }
+  .title1:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1; }
+
+.title2 {
+  display: flex;
+  align-items: center;
+  font-size: 60px;
+  height: 200px;
+  color: white;
   background-color: rgba(0, 0, 0, 0.8);
-  opacity: 1;
-}
+  position: absolute;
+  opacity: 0.7;
+  text-align: center;
+  transition: opacity 0.5s; }
+  .title2:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1; }
+
 /* +++++++++++++++++++++++++++++++++++++ PRODUCTS +++++++++++++++++++++++++++++++++++++ */
 .pictures{
   display: inline-flex;
@@ -141,25 +149,25 @@ body{
   position: relative;
   bottom: 6rem;
   width: 200% !important;
-  height: 100% !important;
   }
   #slideshow > img{
-      margin: -7px -60% !important;
+      margin: 0 -60% !important;
   width: 168.777% !important;
-  display: block;
-  height: auto;
   }
   header {
       width: 100%;
   }
   .afw{
       height: 27rem;
-      background-image: url(/img-home/review_funkorm_large.jpg) !important;
-      background-size: cover !important;
+      /* background-image: url(https://jenniebv.github.io/project-final/img-home/review_funkorm_large.jpg) !important;
+      background-size: cover !important; */
+  }
+  .afw > img{
+    width: 100%;
+    display: block !important;
   }
   .pictures > li > img{
       height: auto !important;
-  width: 100% !important;
   }
   .pictures > li {
       height: 8rem !important;
