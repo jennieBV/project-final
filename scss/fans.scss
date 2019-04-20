@@ -9,6 +9,10 @@ body{
     justify-content: center;
     list-style: none;
 }
+.album > p  {
+    font-size: 2.8rem;
+    margin: 0;
+}
 .album> li{
     display: flex;
     flex-direction: column;
@@ -16,18 +20,11 @@ body{
     align-items: center;
     margin: 1rem;
     background: rgba(0, 0, 0, 0.84);
-        box-shadow: 2px 2px 8px wheat;
+    box-shadow: 2px 2px 8px wheat;
 }
 .album> li> img{
-    /* border-radius: 10px; */
     width: auto;
     height: 21rem;
-    
-    
-}
-.album > p  {
-    font-size: 2.8rem;
-    margin: 0;
 }
 .album > li > p{
     margin: 0.2rem;
