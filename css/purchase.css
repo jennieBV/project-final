@@ -73,7 +73,7 @@ textarea{
     color: orange;
 }
 .fig >.item>.price{
-  font-size: 3rem;
+  font-size: 2rem;
 }
 /* mobile purchase */
 @media only screen and (max-width: 768px){
@@ -98,9 +98,6 @@ textarea{
 }
 /* tablet purchase */
 @media only screen and (min-width: 768px) and (max-width: 1200px){
-  .item > .price{
-    font-size: 2rem;
-  }
   .fig > img{
     width: 100%;
   }
