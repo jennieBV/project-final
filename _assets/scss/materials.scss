@@ -1,6 +1,8 @@
-// $color_lblack: rgb(26, 26, 26);
-// $color_white: white;
+// //  $color_lblack: rgb(26, 26, 26);
+// // $color_white: white;
 
+// @import "./_assets/variables";
+@import "./_assets/imports";
 .grid-materials {
 	display: grid;
 	grid-template-columns: repeat(8, 1fr);
@@ -33,7 +35,8 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: $color_lgrey;
+		// background: $color_materials_hover;
+		background: $color_dark_red;
 		transform: scaleX(0);
 		transform-origin: 0 50%;
 		transition: transform .3s ease-out;
@@ -83,7 +86,7 @@
 		content: "Paints";
 	}
 	grid-column: 5 / span 5;
-	background-image: url(/img-home/maxresdefault\ \(1\).jpg);
+	background-image: url(/img-home/maxresdefault2.jpg);
 	background-position: center;
 }
 h3 {
@@ -91,12 +94,12 @@ h3 {
 }
 #second {
 	grid-column: 7 / span 3;
-	background: $background_color_fblack;
+	background: $color_lblack;
 	color: $color_white;
 	text-align: end;
 }
 #third {
 	grid-column: 1 / span 2;
-	background: $background_color_fblack;
+	background: $color_lblack;
 	color: $color_white;
 }

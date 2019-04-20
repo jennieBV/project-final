@@ -5,7 +5,8 @@
 // $font_family_1: 'Passion One', cursive;
 // $background_color_f$color_black: rgba(0, 0, 0, 0.8);
 
-
+// @import "./_assets/variables";
+@import "./_assets/imports";
 /* +++++++++++++++++++++++++++++++++++++ Main / slider +++++++++++++++++++++++++++++++++++++ */
 // @keyframes "slide" {
 // /* 20% {margin-left: 0px;}
@@ -66,15 +67,15 @@ body {
 		>h3 {
 			color: $color_yellow;
 		}
-		width: 590px;
-		top: 398px;
+		width: 32rem;
+		top: 23rem;
 	}
 	>.title2 {
 		>h3 {
 			color: $color_lblue;
 		}
 		top: 150px;
-		margin-left: 50rem;
+		margin-left: 56%;
 	}
 }
 .title1 {
@@ -89,7 +90,7 @@ body {
 	opacity: 0.7;
 	text-align: center;
 	transition: opacity 0.5s;
-	width: 500px;
+	// width: 500px;
 	&:hover {
 		cursor: pointer;
 		background-color: $background_color_fblack;
@@ -99,7 +100,7 @@ body {
 .title2 {
 	display: flex;
 	align-items: center;
-	margin-left: 1rem;
+	// margin-left: 1rem;
 	font-size: 60px;
 	height: 200px;
 	color: $color_white;
@@ -108,7 +109,7 @@ body {
 	opacity: 0.7;
 	text-align: center;
 	transition: opacity 0.5s;
-	width: 500px;
+	// width: 500px;
 	&:hover {
 		cursor: pointer;
 		background-color: $background_color_fblack;
@@ -147,7 +148,7 @@ body {
 	}
 }
 .down {
-	background-color: $color_lgrey;
+	background-color: $background_color_fblack;
 	font-size: 1.5rem;
 	color: $color_white;
 	text-align: center;
@@ -167,3 +168,8 @@ body {
 		color: $color_lgrey;
 	}
 }
+// @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+// 	.titles > .title1 {
+// 	  width: 19rem !important;
+// 	  top: 14rem !important; } 
+// 	}

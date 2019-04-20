@@ -1,11 +1,16 @@
 // $color_white: white;
-// $color_$color_$color_black: $color_$color_black;
-// $color_orange: orange;
+// $color_black: black;
 // $font_family_1: 'Passion one';
-// $background_color_1: lightskyblue;
-// $background_color_2: #f2f2f2;
+// $color_lblue: lightskyblue;
+// $color_lgrey: #f2f2f2;
+
+// $color_white: white;
+// @import "./_assets/variables";
+@import "./_assets/imports";
 
 body {
+	background-image: url(/img-home/1.jpg);
+	color: $color_white;
 	font-family: $font_family_1;
 }
 input[type=text], select, textarea {
@@ -21,7 +26,7 @@ input[type=text], select, textarea {
 // select {
 // 	width: 100%;
 // 	padding: 12px;
-// 	border: 1px solid $color_lgrey;
+// 	border: 1px solid #ccc;
 // 	border-radius: 4px;
 // 	box-sizing: border-box;
 // 	margin-top: 6px;
@@ -31,7 +36,7 @@ input[type=text], select, textarea {
 // textarea {
 // 	width: 100%;
 // 	padding: 12px;
-// 	border: 1px solid $color_lgrey;
+// 	border: 1px solid #ccc;
 // 	border-radius: 4px;
 // 	box-sizing: border-box;
 // 	margin-top: 6px;
@@ -40,7 +45,7 @@ input[type=text], select, textarea {
 // 	font-family: $font_family_1;
 // }
 input[type=submit] {
-	background-color: $background_color_1;
+	background-color: $color_lblue;
 	color: $color_white;
 	padding: 12px 20px;
 	border: none;
@@ -52,9 +57,9 @@ input[type=submit] {
 }
 .container {
 	border-radius: 5px;
-	background-color: $background_color_2;
+	background-color: $color_lgrey;
 	padding: 20px;
-	margin: 3rem;
+	margin: 3rem auto;
 	width: 45rem;
 	color: $color_black;
 }
@@ -62,7 +67,7 @@ form {
 	display: flex;
 	flex-direction: column;
 }
-input {
+input, textarea {
 	padding: 10px;
 	margin: 20px 0;
 	font-family: $font_family_1;
@@ -74,37 +79,5 @@ input {
 		width: 27rem;
 		margin: auto 1rem;
 		background: $color_black;
-	}
-}
-.fig {
-	width: 100%;
-	align-items: center;
-	display: flex;
-	>img {
-		width: 33%;
-		margin: 1rem;
-	}
-	>p {
-		font-size: 3rem;
-		color: $color_orange;
-		>span {
-			color: $color_black;
-		}
-	}
-}
-.item {
-	font-size: 2rem;
-	text-align: center;
-}
-.title {
-	color: $color_orange;
-	font-size: 2rem;
-}
-.price {
-	font-size: 1.4rem;
-	>span {
-		color: $color_orange;
-		font-weight: bold;
-		font-style: italic;
 	}
 }

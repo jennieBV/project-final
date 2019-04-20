@@ -1,5 +1,8 @@
-// $color_white: white;
-
+// // $color_white: white;
+// // $background_color_fblack: black;
+// // $color_lgrey: gray;
+// @import "./_assets/variables";
+@import "./_assets/imports";
 body {
 	background-image: url(/img-home/1.jpg);
 	color: $color_white;

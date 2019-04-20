@@ -1,10 +1,11 @@
-// $color_1: white;
+// $color_white: white;
 // $color_lblack: rgb(27, 27, 27);
 // $font_family_1: 'Passion One', cursive;
 // $background_color_fblack: rgba(0, 0, 0, 0.8);
 // $background_color_black: black;
 
-
+@import "./_assets/variables";
+@import "./_assets/imports";
 /* +++++++++++++++++++++++++++++++++++++ Follow us +++++++++++++++++++++++++++++++++++++ */
 /* +++++++++++++++++++++++++++++++++++++ FOOTER +++++++++++++++++++++++++++++++++++++*/
 body {
@@ -41,7 +42,7 @@ body {
 		}
 		>a {
 			text-decoration: none;
-			color: $color_1;
+			color: $color_white;
 			opacity: 0.9;
 			&:hover {
 				opacity: 1;
@@ -63,7 +64,7 @@ input {
 	}
 	display: inline-flex;
 	align-items: center;
-	color: $color_1;
+	color: $color_white;
 	opacity: 0.9;
 	>i {
 		margin: 1rem;
@@ -76,10 +77,10 @@ input {
 	}
 }
 header {
-	background: $color_lblack;
+	background: $background_color_black;
 	width: 100%;
 	height: 5rem;
-	color: $color_1;
+	color: $color_white;
 	display: inline-flex;
 	justify-content: space-between;
 }
@@ -149,7 +150,7 @@ footer {
 	height: 60px;
 	margin-right: 1rem;
 	display: inline-flex;
-	color: $color_1;
+	color: $color_white;
 	align-items: center;
 	justify-content: center;
 	font-size: 2rem;

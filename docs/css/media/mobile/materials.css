@@ -1,0 +1,21 @@
+/* MATERIALS  */
+@media only screen and (max-width: 768px) {
+  .grid-materials {
+    grid-template-columns: repeat(1, 1fr) !important; }
+  #second {
+    display: none; }
+  #third {
+    display: none; }
+  #fifth {
+    display: none; }
+  #sixth {
+    display: none; }
+  #first {
+    grid-column: 1 / 1 !important; }
+  #forth {
+    grid-column: 1 / 1 !important; }
+  #seventh {
+    grid-column: 1 / 1 !important; }
+  .pic:before {
+    -webkit-transform: scaleX(1) !important;
+            transform: scaleX(1) !important; } }

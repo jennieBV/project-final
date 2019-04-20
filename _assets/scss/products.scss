@@ -1,8 +1,9 @@
-// $color_lbrick: rgb(254, 152, 81);
-// $background_color_$color_black: $color_black;
-// $color_3: $color_$color_orange;
-// $font_family_1: 'Passion One', cursive;
-
+// // $color_lbrick: rgb(254, 152, 81);
+// // $background_color_black: $color_black;
+// // $color_3: $color_$color_orange;
+// // $font_family_1: 'Passion One', cursive;
+// @import "./_assets/variables";
+@import "./_assets/imports";
 .wrapper {
 	>img {
 		width: 100%;

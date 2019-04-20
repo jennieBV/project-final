@@ -1,0 +1,8 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .grid-materials > div {
+    padding: 4px !important; }
+    .grid-materials > div > p {
+      font-size: 78%;
+      margin: 0; }
+    .grid-materials > div > h3 {
+      font-size: 80%; } }

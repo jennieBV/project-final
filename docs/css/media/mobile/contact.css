@@ -1,0 +1,10 @@
+/* CONTACT US  */
+@media only screen and (max-width: 768px) {
+  .wrap {
+    text-align: center;
+    flex-direction: column; }
+    .wrap > p {
+      font-size: 1.5rem !important;
+      width: 88% !important; }
+  .container {
+    width: 84% !important; } }

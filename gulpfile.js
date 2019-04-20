@@ -8,7 +8,7 @@ let gulp = require("gulp"),
 	cp = require("child_process");
 
 gulp.task("scss", function() {
-	return gulp.src( '_assets/scss/**/*.scss' )
+	return gulp.src( '_assets/scss/**/*.scss')
 		.pipe( sass().on('error', sass.logError) )
 		.pipe( autoprefixer() )
 		.pipe( gulp.dest( './docs/css/' ) )
@@ -25,7 +25,7 @@ gulp.task("watch", function() {
 
 	browserSync.init({
 		server: {
-            baseDir: "./docs/",
+            baseDir: "./docs/index",
         	// directory: true
 		}
 	});

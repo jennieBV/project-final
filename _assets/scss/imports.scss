@@ -1,0 +1,33 @@
+// Basic styles
+@import "typography";
+@import "variables";
+@import "reset";
+
+// Layouts styles
+// @import "scss/menu";
+// @import "scss/purchase";
+
+// Pages styles
+// @import "scss/style";
+// @import "scss/products";
+// @import "scss/materials";
+// @import "scss/fans";
+// @import "scss/contact";
+
+// Desktop styles
+@import "./media/desktop/style";
+// Mobile styles
+@import "./media/mobile/style";
+@import "./media/mobile/products";
+@import "./media/mobile/materials";
+@import "./media/mobile/fans";
+@import "./media/mobile/contact";
+@import "./media/mobile/menu";
+@import "./media/mobile/purchase.scss";
+@import "./media/mobile/buy.scss";
+
+// Tablet styles
+@import "./media/tablet/style";
+@import "./media/tablet/materials";
+
+
