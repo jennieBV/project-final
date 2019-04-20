@@ -399,7 +399,7 @@ textarea {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-gap: 1rem;
-  background: url(/img-home/1.jpg);
+  background-image: url(https://jenniebv.github.io/project-final/img-home/1.jpg);
   padding: 1rem;
   min-height: 0; }
   .grid-materials > div {

@@ -409,7 +409,7 @@ body {
 .names {
   display: flex;
   justify-content: space-between;
-  background-image: url(/img-home/1.jpg);
+  background-image: url(https://jenniebv.github.io/project-final/img-home/1.jpg);
   color: black;
   list-style: none;
   margin: 0;
