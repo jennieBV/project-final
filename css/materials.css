@@ -444,32 +444,32 @@ textarea {
 
 #first {
   grid-column: 1 / span 6;
-  background-image: url(project-final/img-home/background-brown-circle-cut-40973.jpeg);
+  background-image: url(https://jenniebv.github.io/project-final/img-home/background-brown-circle-cut-40973.jpeg);
   background-position: bottom; }
   #first:before {
     content: "Wood"; }
 
 #forth {
   grid-column: 3 / span 3;
-  background-image: url(project-final/img-home/clay-sculpting.jpg); }
+  background-image: url(https://jenniebv.github.io/project-final/img-home/clay-sculpting.jpg); }
   #forth:before {
     content: "Clay"; }
 
 #fifth {
   grid-column: 6 / span 4;
-  background-image: url(project-final/img-home/clay-1333694-710x395.jpg); }
+  background-image: url(https://jenniebv.github.io/project-final/img-home/clay-1333694-710x395.jpg); }
   #fifth:before {
     content: "Clay ground"; }
 
 #sixth {
   grid-column: 1 / span 4;
-  background-image: url(project-final/img-home/maxresdefault.jpg); }
+  background-image: url(https://jenniebv.github.io/project-final/img-home/maxresdefault.jpg); }
   #sixth:before {
     content: "Shaping"; }
 
 #seventh {
   grid-column: 5 / span 5;
-  background-image: url(project-final/img-home/maxresdefault2.jpg);
+  background-image: url(https://jenniebv.github.io/project-final/img-home/maxresdefault2.jpg);
   background-position: center; }
   #seventh:before {
     content: "Paints"; }
