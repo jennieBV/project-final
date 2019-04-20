@@ -55,4 +55,37 @@ body{
 .wrapper>div{
   display: none !important;
 }
+.names {
+  flex-direction: column;
+  align-items: center; }
+  .names > li {
+    box-shadow: 2px 2px 10px orange;
+    margin-top: 1rem !important; }
 }
+
+/* copied from 500 lines */
+.names {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(https://jenniebv.github.io/project-final/img-home/1.jpg);
+  color: black;
+  list-style: none;
+  margin: 0;
+  padding: 1rem 0;
+  font-size: 1.8rem; }
+  .names > li {
+    margin: 0 5px;
+    display: inline-block;
+    padding: 1rem;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    text-align: center; }
+    .names > li:hover {
+      box-shadow: 2px 2px 10px orange;
+      cursor: pointer; }
+    .names > li > a {
+      text-decoration: none;
+      color: orange;
+      text-shadow: 2px 2px 2px black; }
