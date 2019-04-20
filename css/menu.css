@@ -185,6 +185,7 @@ footer{
   }
   .ft > li:focus > p{
     display: block;
+    font-size: 1.2rem;
   }
   .ft > li > h4 {
     margin-bottom: 1rem;

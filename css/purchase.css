@@ -81,8 +81,27 @@ textarea{
     flex-direction: column;
     text-align: center;
   }
+  .fig > img{
+    width: 50%;
+  }
   .item p{
     margin: 0;
     font-size:1rem;
+  }
+  .item > .price{
+    font-size: 2rem;
+  }
+  .container{
+    width: 86%;
+  }
+
+}
+/* tablet purchase */
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+  .item > .price{
+    font-size: 2rem;
+  }
+  .fig > img{
+    width: 100%;
   }
 }
