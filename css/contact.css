@@ -1,7 +1,10 @@
+
+@import "variables.css";
+
 /* contact default sizing */
 body{
   background-image: url(https://jenniebv.github.io/project-final/img-home/1.jpg);
-  color: white;
+  color: var(--color_white);
   font-family: 'Passion one' ;
 }
 
@@ -17,8 +20,8 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: lightskyblue;
-  color: white;
+  background-color: var(--color_lightblue);
+  color: var(--color_white);
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -26,16 +29,16 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: lightskyblue;
+  background-color: var(--color_lightblue);
 }
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: var(--color_lightgrey);
   padding: 20px;
   margin: 3rem auto; 
 width:45rem;
-color:black;
+color:var(--color_black);
 }
 
 form{
@@ -56,7 +59,7 @@ textarea{
       font-size: 3rem;
     width: 27rem;
     margin: auto 1rem;
-    background: black;
+    background: var(--color_black);
 }
 /* CONTACT MOBILE */
 @media only screen and (max-width: 768px){

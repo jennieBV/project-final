@@ -1,3 +1,6 @@
+
+@import "variables.css";
+
 /* default style for index */
 
 body{
@@ -6,23 +9,15 @@ body{
   overflow-x: hidden;
   overflow-y: scroll;
   font-family: 'Passion One', cursive;
-  background: white;
+  background: var(--color_white);
 }
 
 /* +++++++++++++++++++++++++++++++++++++ Main / slider +++++++++++++++++++++++++++++++++++++ */
 
-@keyframes slide {
-20% {margin-left: 0px;}
-30% {margin-left: -1350px;}
-50% {margin-left: -1350px;}
-60% {margin-left: -2700px;}
-70% {margin-left: -2700px;}
-80% {margin-left: -4050px;}
-90% {margin-left: -4050px;}
-}
+
 #slideshow{
     display: inline-block;
-    background: black;
+    background: var(--color_black);
     width:100%; 
    
 }
@@ -31,6 +26,15 @@ body{
 /* #slideshow{
   width: 7680px;
   animation: slide 18s ease infinite;
+} 
+@keyframes slide {
+20% {margin-left: 0px;}
+30% {margin-left: -1350px;}
+50% {margin-left: -1350px;}
+60% {margin-left: -2700px;}
+70% {margin-left: -2700px;}
+80% {margin-left: -4050px;}
+90% {margin-left: -4050px;}
 } */
 
 /* Comment this one: (step 2) */
@@ -52,12 +56,12 @@ body{
     width: 32rem;
     top: 23rem; }
     .titles > .title1 > h3 {
-      color: #ffff6a; }
+      color: var(--color_yellow); }
   .titles > .title2 {
     top: 150px;
     margin-left: 56%; }
     .titles > .title2 > h3 {
-      color: #95deff; }
+      color: var(--color_lightmint); }
 
 .title1 {
   display: flex;
@@ -65,15 +69,15 @@ body{
   margin-left: 1rem;
   font-size: 60px;
   height: 200px;
-  color: white;
-  background-color: black;
+  color: var(--color_white);
+  background-color: var(--color_black);
   position: absolute;
   opacity: 0.7;
   text-align: center;
   transition: opacity 0.5s; }
   .title1:hover {
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--color_gray);
     opacity: 1; }
 
 .title2 {
@@ -81,15 +85,15 @@ body{
   align-items: center;
   font-size: 60px;
   height: 200px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--color_white);
+  background-color: var(--color_gray);
   position: absolute;
   opacity: 0.7;
   text-align: center;
   transition: opacity 0.5s; }
   .title2:hover {
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--color_gray);
     opacity: 1; }
 
 /* +++++++++++++++++++++++++++++++++++++ PRODUCTS +++++++++++++++++++++++++++++++++++++ */
@@ -97,7 +101,7 @@ body{
   display: inline-flex;
   list-style: none;
   padding: 0;
-  background: white;
+  background: var(--color_white);
   padding-top: 1rem;
 }
 .pictures > li{
@@ -127,9 +131,9 @@ body{
   visibility: visible;
 }
 .down{
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: var(--color_darkerwhite);
   font-size: 1.5rem;
-  color: white;
+  color: var(--color_white);
   text-align: center;
   height: 3rem;
   position: relative;
@@ -146,7 +150,7 @@ body{
   width: 29%;
   font-size: 3.5rem;
   margin: 0;
-  color: #eae9e8;
+  color: var(--color_darkwhite);
 }
 
 /* mobile size style index */
@@ -225,7 +229,7 @@ body{
   .afw{
     flex-direction: column-reverse;
     align-items: baseline !important;
-    background: black !important;
+    background: var(--color_black) !important;
 }
 .afw > p {
     width: 100% !important;

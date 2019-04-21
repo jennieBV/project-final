@@ -1,3 +1,6 @@
+
+@import "variables.css";
+
 .grid-materials{
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -11,7 +14,7 @@
 }
 .grid-materials > div{
   border: 2px solid rgb(207, 207, 207);
-  color: rgb(26, 26, 26);
+  color: var(--color_almostblack);
   background-size: cover;
   font-size: 1.5rem;
   height: 13rem;
@@ -30,12 +33,12 @@
   position: absolute;
   z-index:-1;
   top: 0;  left: 0;  right: 0;  bottom: 0;
-  background: #42000036;
+  background: var(--color_lightred);
   transform: scaleX(0);
   transform-origin: 0 50%;
   transition: transform .3s ease-out;
   font-size: 6rem;
-  color: white;
+  color: var(--color_white);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,14 +62,14 @@ h3{
   }
 #second {
   grid-column: 7 / span 3;
-  background: black;
-  color:white;
+  background: var(--color_black);
+  color:var(--color_white);
   text-align: end;
   }
 #third {
   grid-column: 1 / span 2;
-  background: black;
-  color:white;
+  background: var(--color_black);
+  color:var(--color_white);
   }
 #forth {
   grid-column: 3 / span 3;

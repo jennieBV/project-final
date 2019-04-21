@@ -1,0 +1,48 @@
+:root{
+    /* contact) */
+--color_white: white;
+--color_black: black;
+--color_lightblue: lightskyblue;
+--color_lightgrey: #f2f2f2;
+
+/* fans) */
+/* white; */
+--color_gray: rgba(0, 0, 0, 0.84);
+
+/* materials) */
+--color_almostblack: rgb(26, 26, 26);
+/* white, black */
+--color_lightred: #42000036;
+
+/* menu) */
+/* white, black */
+--color_almostblack: rgb(26, 26, 26);
+--color_dimgray: dimgray;
+--color_gray: rgba(0, 0, 0, 0.84);
+--color_blue: blue;
+/* --color_lightblue */
+--color_red: red;
+
+/* products) */
+--color_lightorange: rgb(254, 152, 81);
+/* black; */
+--color_orange: orange;
+
+/* purchase) */
+/* black, white, orange, lightskyblue; */
+/* --color_lightgrey */
+
+/* stars) */
+/* --color_whitesmoke: whitesmoke; */
+--color_gold: #ffc700;
+--color_greyish: #ccc;
+
+/* style) */
+--color_yellow: #ffff6a;
+--color_lightmint: #95deff;
+ /* white; */
+--color_darkwhite: #eae9e8;
+ /* black; */
+--color_gray: rgba(0, 0, 0, 0.84);
+--color_darkerwhite: rgba(0, 0, 0, 0.6); 
+}
