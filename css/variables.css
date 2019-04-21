@@ -1,9 +1,9 @@
 :root{
     /* contact) */
---color_white: white;
---color_black: black;
---color_lightblue: lightskyblue;
---color_lightgrey: #f2f2f2;
+--color_white: rgb(253, 254, 255);
+--color_black: rgb(0, 0, 0);
+--color_lightblue: rgb(135, 206, 250);
+--color_lightgrey: rgb(242, 242, 242);
 
 /* fans) */
 /* white; */
@@ -12,21 +12,21 @@
 /* materials) */
 --color_almostblack: rgb(26, 26, 26);
 /* white, black */
---color_lightred: #42000036;
+--color_lightred: rgba(66, 0, 0, 0.212);
 
 /* menu) */
 /* white, black */
 --color_almostblack: rgb(26, 26, 26);
---color_dimgray: dimgray;
+--color_dimgray: rgb(105, 105, 105);
 --color_gray: rgba(0, 0, 0, 0.84);
---color_blue: blue;
+--color_blue: rgb(0, 0, 255);
 /* --color_lightblue */
---color_red: red;
+--color_red: rgb(255, 0, 0);
 
 /* products) */
 --color_lightorange: rgb(254, 152, 81);
 /* black; */
---color_orange: orange;
+--color_orange: rgb(255, 165, 0);
 
 /* purchase) */
 /* black, white, orange, lightskyblue; */
@@ -34,14 +34,14 @@
 
 /* stars) */
 /* --color_whitesmoke: whitesmoke; */
---color_gold: #ffc700;
---color_greyish: #ccc;
+--color_gold: rgb(255, 199, 0);
+--color_greyish: rgb(204, 204, 204);
 
 /* style) */
---color_yellow: #ffff6a;
---color_lightmint: #95deff;
+--color_yellow: rgb(255, 255, 106);
+--color_lightmint: rgb(149, 222, 255);
  /* white; */
---color_darkwhite: #eae9e8;
+--color_darkwhite: rgb(234, 233, 232);
  /* black; */
 --color_gray: rgba(0, 0, 0, 0.84);
 --color_darkerwhite: rgba(0, 0, 0, 0.6); 
