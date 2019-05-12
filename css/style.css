@@ -23,10 +23,10 @@ body{
 }
  /* For animation: (1)uncomment the below #slideshow; (2) comment #slideshow > img; (3)uncomment the images in index.html; */
 
- #slideshow{
+ /* #slideshow{
   width: 7680px;
   animation: slide 18s ease infinite;
-} 
+} */
 @keyframes slide {
 20% {margin-left: 0px;}
 30% {margin-left: -1350px;}
@@ -38,10 +38,10 @@ body{
 } 
 
 /* Comment this one: (step 2) */
-/* #slideshow > img{
+ #slideshow > img{
      width:100%;
     height:auto; 
-} */
+} 
 /* End */
 
 
